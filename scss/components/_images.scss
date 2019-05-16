@@ -1,0 +1,32 @@
+.img--logo {
+  width: 40%;
+  margin: 10px auto;
+  display: block;
+  @include mq(tablet) {
+    width: 120px;
+  }
+}
+
+  .img--avatar {
+    display: block;
+    margin: 20px auto;
+  }
+
+  .img--frame {
+    width: 100%;
+    display: block;
+    margin: auto;
+    border: 10px solid white;
+    box-shadow: 0 0 0 .2px black;
+    @include mq(tablet) {
+      margin: auto;
+      width: 400px;
+    }
+  }
+
+  .grid__col--4 .img--avatar {
+    @include mq(tablet) {
+      margin: 1em auto;
+      width: 150px;
+    }
+}

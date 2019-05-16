@@ -1,0 +1,36 @@
+
+
+.btn--default {
+  @include btn-style;
+  background-color: $color-default;
+}
+
+.btn--success {
+  @include btn-style;
+  background-color: $color-success;
+}
+
+.btn--error {
+  @include btn-style;
+  background-color: $color-error;
+}
+
+.btn--warning {
+  @include btn-style;
+  background-color: $color-warning;
+}
+
+.btn--info {
+  @include btn-style;
+  background-color: $color-info;
+}
+
+.btn--info,
+.btn--error,
+.btn--success,
+.btn--warning {
+  @include mq(tablet) {
+    margin-left: 1em;
+    margin-top: 0;
+  }
+}

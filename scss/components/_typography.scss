@@ -1,0 +1,29 @@
+.headline--primary {
+  color: $color-accent;
+  display: block;
+  padding-left: 20px;
+  line-height: 1.3em;
+}
+
+.headline--secondary {
+  font-family: $font-headline;
+  font-weight: 100;
+  margin-top: 3em;
+}
+
+.blockquote {
+  font-style: italic;
+  padding-left: 1em;
+  border-radius: 8px;
+  border-left: 8px solid $color-accent;
+  @include mq(tablet) {
+    font-size: 1.5em;
+    font-weight: lighter;
+  }
+}
+
+.link {
+  text-decoration: none;
+  color: $color-default;
+  font-weight: bold;
+}
